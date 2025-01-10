@@ -1,4 +1,3 @@
 #!/usr/bin/env ruby
-
-# The regular expression matches 'School' exactly.
+# Regular expression must matches school, this script is written by Latjor
 puts ARGV[0].scan(/School/).join
