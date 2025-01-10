@@ -1,4 +1,3 @@
 #!/usr/bin/env ruby
-
-# The regular expression matches one or more occurrences of the word 'School'
-puts ARGV[0].scan(/School+/).join
+# 1. Repetition Token #0
+puts ARGV[0].scan(/hbt{2,5}n/).join
